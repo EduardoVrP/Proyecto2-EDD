@@ -9,11 +9,13 @@ public class Frecuencia {
     }
 
     public int compareTo(Frecuencia a){
-	if(this.frecuencia == a.frecuencia)
+	if(this.frecuencia == a.frecuencia){
 	    return 0;
-	if(this.frecuencia < a.frecuencia)
+    }else if(this.frecuencia < a.frecuencia){
 	    return -1;
-	return 1;
+    }else{
+        return 1;
+    }
     }
 
     public String toString(){
