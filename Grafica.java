@@ -18,9 +18,9 @@ public class Grafica extends JPanel {
 
 	    Color c = new Color(234, 34, 192);
 
-	    g.drawLine(10, 30, 10, 500);
+	    g.drawLine(17, 30, 10, 500);
 
-	    g.drawLine(10, 500, 570, 500);
+	    g.drawLine(17, 500, 570, 500);
 
 	    g.drawString("18", 45, 525); //De 10 a 80
 	    
@@ -41,7 +41,7 @@ public class Grafica extends JPanel {
 		//Para imprimir las etiquetas de las edades
 		int etiqueta = 1;
 		int veces = 1;
-		for(int i = 500; i > 30 ; i -= 25){
+		for(int i = 500; i > 30 ; i -= 10){
 			if(veces % 2 == 0){
 				g.drawString(Integer.toString(etiqueta), 1, i);
 				etiqueta++;
@@ -51,7 +51,7 @@ public class Grafica extends JPanel {
 
 	    if (e18 != 0){
 		 	valor = 500 - (e18 * 50);
-			g.fillRect(10, 30+valor, 69, 500-(30+valor));
+			g.fillRect(17, 30+valor, 63, 500-(30+valor));
 	    }
 
 	    if (e19 != 0){
