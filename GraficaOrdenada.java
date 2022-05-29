@@ -2,7 +2,12 @@ import java.awt.Graphics;
 import javax.swing.JPanel;
 import java.awt.Color;
 
-
+/**
+ * Clase para imprimir la gráfica ordenada
+ * 
+ * @author Eduardo Vargas Perez, Ernesto Yahir Rivera Hernandez
+ * @version mayo 2022
+ */
 public class GraficaOrdenada extends JPanel {
 
 
@@ -40,37 +45,37 @@ public class GraficaOrdenada extends JPanel {
 
 	    if (f[1].frecuencia != 0){
 		int valor = 500 - (f[1].frecuencia * 50);
-		g.fillRect(80, 30+valor, 150, 500-(30+valor));
+		g.fillRect(79, 30+valor, 69, 500-(30+valor));
 	    }
 
 	    if (f[2].frecuencia != 0){
 		int valor = 500 - (f[2].frecuencia * 50);
-		g.fillRect(150, 30+valor, 220, 500-(30+valor));
+		g.fillRect(149, 30+valor, 69, 500-(30+valor));
 	    }
 
 	    if (f[3].frecuencia != 0){
 		int valor = 500 - (f[3].frecuencia * 50);
-		g.fillRect(220, 30+valor, 290, 500-(30+valor));
+		g.fillRect(219, 30+valor, 69, 500-(30+valor));
 	    }
 
 	    if (f[4].frecuencia != 0){
 		int valor = 500 - (f[4].frecuencia * 50);
-		g.fillRect(290, 30+valor, 360, 500-(30+valor));
+		g.fillRect(289, 30+valor, 69, 500-(30+valor));
 	    }
 
 	    if (f[5].frecuencia != 0){
 		int valor = 500 - (f[5].frecuencia * 50);
-		g.fillRect(360, 30+valor, 430, 500-(30+valor));
+		g.fillRect(359, 30+valor, 69, 500-(30+valor));
 	    }
 
 	    if (f[6].frecuencia != 0){
 		int valor = 500 - (f[6].frecuencia * 50);
-		g.fillRect(430, 30+valor, 500, 500-(30+valor));
+		g.fillRect(429, 30+valor, 69, 500-(30+valor));
 	    }
 
 	    if (f[7].frecuencia != 0){
 		int valor = 500 - (f[7].frecuencia * 50);
-		g.fillRect(500, 30+valor, 530, 500-(30+valor));
+		g.fillRect(499, 30+valor, 69, 500-(30+valor));
 	    }
 	        
 	}

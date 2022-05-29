@@ -1,3 +1,9 @@
+/**
+ * Clase para representar la frecuencia de las edades
+ * 
+ * @author Eduardo Vargas Perez, Ernesto Yahir Rivera Hernandez
+ * @version mayo 2022
+ */
 public class Frecuencia {
 
     int edad;

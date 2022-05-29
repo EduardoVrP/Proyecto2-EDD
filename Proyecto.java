@@ -5,7 +5,7 @@ import java.util.Comparator;
 /**
  * Clase para desarrollar el proyecto
  * 
- * @author Eduardo Vargas Perez, Ernesto Rivera
+ * @author Eduardo Vargas Perez, Ernesto Yahir Rivera Hernandez
  * @version mayo 2022
  */
 public class Proyecto {
@@ -78,8 +78,8 @@ public class Proyecto {
                                     System.out.println(alumnos.containsKey(numCuenta));//Para revisar en la terminal si se agrego bien
                                     
                                 }else{
-                                    JOptionPane.showMessageDialog(null, "Ingresa un numero entre 300,000,000 y 500,000,000", "Error",
-								  JOptionPane.INFORMATION_MESSAGE);
+                                    JOptionPane.showMessageDialog(null, "El numero de cuenta que ingresaste esta fuera del rango permitido (300,000,000-500,000,000) o ya fue registrado",
+                                     "Error",JOptionPane.INFORMATION_MESSAGE);
                                 }
                             }catch(Exception e){
                                 JOptionPane.showMessageDialog(null, "Ingresa lo solicitado", "Error", JOptionPane.INFORMATION_MESSAGE);
@@ -91,6 +91,7 @@ public class Proyecto {
                         System.out.println("Opcion 2");//Esto es para ver que funciona el menu
 			            int e18 = 0, e19 = 0, e20 = 0, e21 = 0, e22 = 0, e23 = 0, e24 = 0, e25 = 0;
 			            int[] ed = obtenerValores(alumnos);
+                        
 			            for(int i = 0; i < ed.length; i++){
 			                if(ed[i] == 18){
 				                e18++;

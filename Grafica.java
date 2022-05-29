@@ -2,7 +2,12 @@ import java.awt.Graphics;
 import javax.swing.JPanel;
 import java.awt.Color;
 
-
+/**
+ * Clase para imprimir la grafica
+ * 
+ * @author Eduardo Vargas Perez, Ernesto Yahir Rivera Hernandez
+ * @version mayo 2022
+ */
 public class Grafica extends JPanel {
 
     int e18, e19, e20, e21, e22, e23, e24, e25;
@@ -35,42 +40,42 @@ public class Grafica extends JPanel {
 
 	    if (e18 != 0){
 		 	valor = 500 - (e18 * 50);
-			g.fillRect(10, 30+valor, 80, 500-(30+valor));
+			g.fillRect(10, 30+valor, 69, 500-(30+valor));
 	    }
 
 	    if (e19 != 0){
 			valor = 500 - (e19 * 50);
-			g.fillRect(80, 30+valor, 150, 500-(30+valor));
+			g.fillRect(81, 30+valor, 69, 500-(30+valor));
 	    }
 
 	    if (e20 != 0){
 			valor = 500 - (e20 * 50);
-			g.fillRect(150, 30+valor, 220, 500-(30+valor));
+			g.fillRect(151, 30+valor, 69, 500-(30+valor));
 	    }
 
 	    if (e21 != 0){
 			valor = 500 - (e21 * 50);
-			g.fillRect(220, 30+valor, 290, 500-(30+valor));
+			g.fillRect(221, 30+valor, 69, 500-(30+valor));
 	    }
 
 	    if (e22 != 0){
 			valor = 500 - (e22 * 50);
-			g.fillRect(290, 30+valor, 360, 500-(30+valor));
+			g.fillRect(291, 30+valor, 69, 500-(30+valor));
 	    }
 
 	    if (e23 != 0){
 			valor = 500 - (e23 * 50);
-			g.fillRect(360, 30+valor, 430, 500-(30+valor));
+			g.fillRect(361, 30+valor, 69, 500-(30+valor));
 	    }
 
 	    if (e24 != 0){
 			valor = 500 - (e24 * 50);
-			g.fillRect(430, 30+valor, 500, 500-(30+valor));
+			g.fillRect(429, 30+valor, 69, 500-(30+valor));
 	    }
 
 	    if (e25 != 0){
 			valor = 500 - (e25 * 50);
-			g.fillRect(500, 30+valor, 570, 500-(30+valor));
+			g.fillRect(501, 30+valor, 69, 500-(30+valor));
 	    }
 	        
 	}
