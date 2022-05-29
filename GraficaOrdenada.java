@@ -40,7 +40,7 @@ public class GraficaOrdenada extends JPanel {
 
 	    if (f[0].frecuencia != 0){
 		int valor = 500 - (f[0].frecuencia * 50);
-		g.fillRect(10, 30+valor, 80, 500-(30+valor));
+		g.fillRect(10, 30+valor, 69, 500-(30+valor));
 	    }
 
 	    if (f[1].frecuencia != 0){
