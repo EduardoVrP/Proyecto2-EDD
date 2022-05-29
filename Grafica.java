@@ -38,6 +38,17 @@ public class Grafica extends JPanel {
 
 	    g.drawString("25", 535, 525); //De 500 a 570
 
+		//Para imprimir las etiquetas de las edades
+		int etiqueta = 1;
+		int veces = 1;
+		for(int i = 500; i > 30 ; i -= 25){
+			if(veces % 2 == 0){
+				g.drawString(Integer.toString(etiqueta), 1, i);
+				etiqueta++;
+			}
+			veces++;
+		}
+
 	    if (e18 != 0){
 		 	valor = 500 - (e18 * 50);
 			g.fillRect(10, 30+valor, 69, 500-(30+valor));

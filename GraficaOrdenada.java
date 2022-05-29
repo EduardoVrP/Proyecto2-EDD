@@ -38,6 +38,17 @@ public class GraficaOrdenada extends JPanel {
 
 	    g.drawString(Integer.toString(f[7].edad), 535, 525); //De 500 a 570
 
+		//Para imprimir las etiquetas de las edades
+		int etiqueta = 1;
+		int veces = 1;
+		for(int i = 500; i > 30 ; i -= 25){
+			if(veces % 2 == 0){
+				g.drawString(Integer.toString(etiqueta), 1, i);
+				etiqueta++;
+			}
+			veces++;
+		}
+
 	    if (f[0].frecuencia != 0){
 		int valor = 500 - (f[0].frecuencia * 50);
 		g.fillRect(10, 30+valor, 69, 500-(30+valor));
